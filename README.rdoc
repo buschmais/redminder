@@ -1,0 +1,31 @@
+= redmine_overdue_notification_task (redminder)
+
+Redmine (http://www.redmine.org/) Overdue-Issues Notification Task
+
+== Features
+
+E-mail notification of overdue issues
+
+== Licence
+
+GPL v2
+
+== Installation
+
+This plug-in requires Redmine 2.x.
+
+  cd /opt/redmine/plugins
+  git clone https://github.com/buschmais/redminder redmine_overdue_notification_task
+
+== Usage
+
+Add a cronjob to run every day at 7:00 AM: 
+
+  root@debian:~# crontab -e
+
+Add a line like this (on a single line) for notifications on weekdays at 7:00 AM for project 'webshop':
+
+  0 7 * * 1-5    /opt/redmine && rake --silent redminder:notify project=webshop RAILS_ENV=production
+
+Options:
+* project  => id or identifier of project (optional, default: all projects)

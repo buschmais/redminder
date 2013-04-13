@@ -1,0 +1,4 @@
+# German strings go here
+de:
+  redminder_mail_subject: Überfällige Tickets
+  redminder_mail_body: Ihnen sind folgende Tickets zugewiesen, die überfällig sind

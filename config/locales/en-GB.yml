@@ -1,0 +1,4 @@
+# English strings go here
+en-GB:
+  redminder_mail_subject: Overdue issues
+  redminder_mail_body: These issues that are assinged to you are overdue

@@ -1,0 +1,4 @@
+# Spanish strings go here
+es:
+  redminder_mail_subject: Peticiones vencidas
+  redminder_mail_body: Usted tiene asignado estas peticiones que están vencidas
