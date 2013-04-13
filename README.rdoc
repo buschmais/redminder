@@ -28,4 +28,4 @@ Add a line like this (on a single line) for notifications on weekdays at 7:00 AM
   0 7 * * 1-5    /opt/redmine && rake --silent redminder:notify project=webshop RAILS_ENV=production
 
 Options:
-* project  => id or identifier of project (optional, default: all projects)
+* project => id or identifier of project (optional, default: all projects)

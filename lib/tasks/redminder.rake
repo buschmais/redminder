@@ -19,7 +19,7 @@ desc <<-END_DESC
 Send reminders of overdue issues.
 
 Options:
-  * project  => id or identifier of project (optional, default: all projects)
+  * project => id or identifier of project (optional, default: all projects)
 
 Example:
   rake redminder:notify project=webshop RAILS_ENV=production

@@ -1,5 +1,6 @@
 # redminder - redmine overdue-issues notification task
 # Copyright (c) 2013  Frank Schwarz, frank.schwarz@buschmais.com
+# Copyright (C) 2006-2013  Jean-Philippe Lang
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
