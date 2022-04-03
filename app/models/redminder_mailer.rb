@@ -30,7 +30,7 @@ class RedminderMailer < Mailer
     )
     scope = scope.where(:project_id => project.id) if project
 
-    issues_by_assignee = scope.includes(:assigned_to, :project).all.group_by(&:assigned_to)
+    issues_by_assignee = scope.includes(:status, :assigned_to, :project).all.group_by(&:assigned_to)
     issues_by_assignee.keys.each do |assignee|
       if assignee.is_a?(Group)
         assignee.users.each do |user|

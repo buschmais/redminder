@@ -25,7 +25,7 @@ Redmine::Plugin.register :redmine_overdue_notification_task do
   name 'Redmine overdue-issues notification task (aka redminder)'
   author 'Frank Schwarz'
   description 'Rake task to send out email notifications for overdue issues'
-  version '0.3.0'
+  version '0.4.0'
   url 'https://github.com/buschmais/redminder/'
   author_url 'http://www.buschmais.de/author/frank/'
 end
